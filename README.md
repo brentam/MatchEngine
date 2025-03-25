@@ -17,7 +17,7 @@ This project is a Kotlin-based web service designed to match workers with suitab
 1.  **Clone the repository:**
 
     ```sh
-    git clone [https://github.com/your-repo/coding-match-service.git](https://github.com/your-repo/coding-match-service.git)
+    git clone [https://github.com/brentam/MatchEngine.git](https://github.com/brentam/MatchEngine.git)
     cd coding-match-service
     ```
 
