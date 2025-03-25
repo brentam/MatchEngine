@@ -7,5 +7,5 @@ import org.springframework.boot.runApplication
 class MatchEngineApplication
 
 fun main(args: Array<String>) {
-	runApplication<MatchEngineApplication>(*args)
+    runApplication<MatchEngineApplication>(*args)
 }

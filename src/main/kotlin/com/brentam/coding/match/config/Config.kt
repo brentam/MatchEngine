@@ -7,7 +7,7 @@ import org.springframework.core.env.Environment
 import org.springframework.web.reactive.function.client.WebClient
 
 @Configuration
-class Config(private val env:Environment) {
+class Config(private val env: Environment) {
 
     @Bean
     fun webClient(): WebClientConfig {
