@@ -1,0 +1,9 @@
+server:
+  port: 8080
+  error:
+    include-stacktrace: never
+
+web-service:
+  configs:
+    worker-url: https://test.swipejobs.com/api/workers
+    job-url: https://test.swipejobs.com/api/jobs
