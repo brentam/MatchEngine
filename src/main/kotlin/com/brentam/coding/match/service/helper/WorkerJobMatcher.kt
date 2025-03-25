@@ -17,7 +17,7 @@ private fun getPredicates(worker: Worker, job: Job): List<() -> Boolean> {
 }
 
 /**
- * this extension function receives a worker and a job and returns a boolean
+ * this extension function receives a worker and try to match it with a job
  */
 fun Worker.isAMatch(job: Job): Boolean {
     val predicates = getPredicates(this, job)

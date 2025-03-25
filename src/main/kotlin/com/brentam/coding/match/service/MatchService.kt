@@ -26,7 +26,6 @@ class DefaultMatchService(private val webClientConfig: WebClientConfig) : MatchS
                 .toMono() // Get the first matching worker
                 .switchIfEmpty(Mono.error(UserNotFoundException(workerId)))
 
-
         val jobsEndpoint = retrieveFlux(webClientConfig.webClient, webClientConfig.jobsUrl, Job::class.java)
             .collectList()
 
